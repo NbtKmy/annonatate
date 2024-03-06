@@ -1,0 +1,40 @@
+---
+canvas: "https://media.nga.gov/public/manifests/canvas/106382.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "angled box",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NbtKmy",
+                "name": "Nobutake Kamiya"
+            },
+            "created": "2024-03-06T20:19:43.379Z",
+            "modified": "2024-03-06T20:19:45.762Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
+                "type": "Manifest"
+            },
+            "id": "https://media.nga.gov/public/manifests/canvas/106382.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"16741.400390625,2400.017578125 18135.0625,5245.39990234375 16239.779749244204,6173.7052951895475 14846.117639869204,3328.3229709707975\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "be8086bf-1a71-4a01-af7d-a0f53cad1c80.json",
+    "motivation": "commenting"
+}
