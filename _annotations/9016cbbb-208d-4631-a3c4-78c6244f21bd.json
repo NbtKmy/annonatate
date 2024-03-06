@@ -1,0 +1,38 @@
+---
+canvas: "https://media.nga.gov/public/manifests/canvas/106382.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NbtKmy",
+                "name": "Nobutake Kamiya"
+            },
+            "created": "2024-03-06T20:17:48.693Z",
+            "modified": "2024-03-06T20:17:50.137Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
+                "type": "Manifest"
+            },
+            "id": "https://media.nga.gov/public/manifests/canvas/106382.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=6004.1806640625,2794.050048828125,7783.478515625,2714.329345703125"
+        }
+    },
+    "id": "9016cbbb-208d-4631-a3c4-78c6244f21bd.json",
+    "motivation": "commenting"
+}
